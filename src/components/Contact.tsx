@@ -51,15 +51,14 @@ export function Contact() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Начните практику
+              Напишите мне
             </h2>
             <p
               className={`text-muted-foreground leading-relaxed mb-12 max-w-md transition-all duration-1000 delay-300 ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Первый шаг — самый важный. Напишите нам, и мы подберём подходящее занятие,
-              уровень и удобное для вас время.
+              Расскажите о себе и своих целях — я отвечу и подберу подходящий формат занятий.
             </p>
 
             {/* Contact Info */}

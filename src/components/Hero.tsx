@@ -19,7 +19,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          Йога и Пилатес · Москва
+          Преподаватель йоги и пилатеса · Москва
         </p>
 
         {/* Main Headline */}
@@ -28,8 +28,8 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Движение,
-          <span className="block text-sage">которое исцеляет</span>
+          Елена
+          <span className="block text-sage">Завидова</span>
         </h1>
 
         {/* Subheadline */}
@@ -38,7 +38,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Студия осознанных практик в Москве. Йога и пилатес для тех, кто ищет баланс между телом и разумом.
+          Делюсь практиками йоги и пилатеса, которые помогают найти баланс, укрепить тело и обрести внутреннее спокойствие.
         </p>
 
         {/* CTA */}

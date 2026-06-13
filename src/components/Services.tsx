@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react"
 const services = [
   {
     title: "Хатха-йога",
-    description: "Классическая практика для всех уровней. Работа с телом, дыханием и вниманием — мягко, но глубоко.",
+    description: "Веду групповые и индивидуальные занятия для всех уровней. Мягко, но глубоко — с вниманием к каждому.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -12,7 +12,7 @@ const services = [
   },
   {
     title: "Пилатес",
-    description: "Система упражнений для укрепления глубоких мышц, коррекции осанки и развития баланса тела.",
+    description: "Работаем с глубокими мышцами, осанкой и балансом. Отлично подходит при болях в спине и сидячей работе.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -21,7 +21,7 @@ const services = [
   },
   {
     title: "Йога-нидра",
-    description: "Практика глубокого расслабления и осознанного сна. Восстанавливает нервную систему и снимает хронический стресс.",
+    description: "Практика глубокого расслабления. Провожу онлайн-сессии и записи для самостоятельной работы.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
@@ -30,7 +30,7 @@ const services = [
   },
   {
     title: "Индивидуальные занятия",
-    description: "Персональная программа с опытным инструктором — для быстрого прогресса и работы с конкретными запросами.",
+    description: "Персональные занятия со мной — составляю программу под ваш запрос, уровень и цели.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -70,14 +70,14 @@ export function Services() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
-            Занятия
+            Со мной
           </p>
           <h2
             className={`font-serif text-4xl md:text-5xl lg:text-6xl font-light text-foreground text-balance transition-all duration-1000 delay-200 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Наши практики
+            Как я преподаю
           </h2>
         </div>
 

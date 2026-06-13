@@ -60,7 +60,7 @@ export function Process() {
                   isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
                 }`}
               >
-                Наш подход
+                Мой подход
               </p>
               <h2
                 className={`font-serif text-4xl md:text-5xl font-light text-foreground mb-6 text-balance transition-all duration-1000 delay-200 ${
@@ -75,7 +75,7 @@ export function Process() {
                   isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                 }`}
               >
-                Настоящая практика не торопится. Она разворачивается шаг за шагом — уважая ваше тело, ваш ритм и вашу жизнь.
+                Я не тороплю и не давлю. На занятии важно не то, насколько глубоко вы входите в позу — а то, насколько вы в ней присутствуете.
               </p>
             </div>
           </div>

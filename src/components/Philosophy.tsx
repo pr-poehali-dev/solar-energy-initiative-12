@@ -47,7 +47,7 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              Наша философия
+              Обо мне
             </p>
 
             <h2
@@ -55,10 +55,10 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Практика
-              <span className="italic"> присутствия</span>
+              Путь через
+              <span className="italic"> движение</span>
               <br />
-              и силы
+              и тишину
             </h2>
 
             <div
@@ -67,13 +67,13 @@ export function Philosophy() {
               }`}
             >
               <p>
-                Мы верим, что тело — это не просто физическая оболочка, а пространство для внутренней тишины.
-                Каждое занятие — это диалог с собой, шаг к осознанности и гармонии.
+                Я преподаю йогу и пилатес уже более 7 лет. Для меня практика — это не про гибкость
+                и идеальные асаны, а про внимание к себе и умение слышать своё тело.
               </p>
               <p>
-                Наш подход вдохновлён японской концепцией <em className="text-foreground">ма</em> — ценностью
-                паузы и присутствия — и философией пилатеса: движение начинается
-                <em className="text-foreground"> из центра</em>, распространяясь на всё тело.
+                Вдохновляюсь японской концепцией <em className="text-foreground">ма</em> — красотой паузы
+                и присутствия. В каждом занятии я ищу баланс между
+                <em className="text-foreground"> усилием и покоем</em>, силой и мягкостью.
               </p>
             </div>
 
@@ -84,16 +84,16 @@ export function Philosophy() {
               }`}
             >
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">7</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Лет опыта</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">7+</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Лет практики</p>
               </div>
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">500+</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">300+</p>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Учеников</p>
               </div>
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">12</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Программ</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">2</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Направления</p>
               </div>
             </div>
           </div>
