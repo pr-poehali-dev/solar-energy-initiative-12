@@ -18,7 +18,7 @@ export function Header() {
               href="#philosophy"
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
             >
-              О нас
+              О мне
             </a>
             <a
               href="#services"
@@ -27,10 +27,10 @@ export function Header() {
               Занятия
             </a>
             <a
-              href="#process"
+              href="#portfolio"
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
             >
-              Подход
+              Портфолио
             </a>
             <a
               href="#contact"
@@ -68,7 +68,7 @@ export function Header() {
               onClick={() => setIsMenuOpen(false)}
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
             >
-              О нас
+              О мне
             </a>
             <a
               href="#services"
@@ -76,6 +76,13 @@ export function Header() {
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
             >
               Занятия
+            </a>
+            <a
+              href="#portfolio"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Портфолио
             </a>
             <a
               href="#process"

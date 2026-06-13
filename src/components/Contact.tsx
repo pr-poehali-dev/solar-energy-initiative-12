@@ -69,13 +69,19 @@ export function Contact() {
             >
               <div>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Почта</p>
-                <a href="mailto:hello@example.com" className="text-foreground hover:text-sage transition-colors">
-                  hello@example.com
+                <a href="mailto:elena.zavidova@gmail.com" className="text-foreground hover:text-sage transition-colors">
+                  elena.zavidova@gmail.com
                 </a>
               </div>
               <div>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Локация</p>
-                <p className="text-foreground">Москва</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Телефон</p>
+                <a href="tel:+79161234567" className="text-foreground hover:text-sage transition-colors">
+                  +7 916 123-45-67
+                </a>
+              </div>
+              <div>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Адрес студии</p>
+                <p className="text-foreground">Москва, ул. Пречистенка, 17</p>
               </div>
             </div>
           </div>
